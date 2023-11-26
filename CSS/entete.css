@@ -1,0 +1,68 @@
+/*pc*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding:15px 22%;
+    font-weight: bold;
+}
+
+.navbar ul a{
+    color: gray;
+}
+.navbar-brand{
+    color: goldenrod;
+    text-transform: uppercase;
+    margin-right: 350px;
+}
+
+
+a:active{
+    color: goldenrod;
+}
+
+a:hover{
+    color: goldenrod;
+}
+
+span{
+    color: gray;
+}
+
+/*Mobile*/
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-nav {
+        margin-right: -15px;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: block;
+        padding: 10px;
+        color: gray;
+        text-align: center;
+    }
+
+}
